@@ -9,4 +9,5 @@
     <string name="Register"><font color="#FFA500">Register</font></string>
     <string name="TextRegister">Don\'t have an account?<font color="#FFA500">  Register now!</font></string>
     <string name="todo">TODO</string>
+    <string name="conte_do_do_card_interno">Conteúdo do card interno</string>
 </resources>
