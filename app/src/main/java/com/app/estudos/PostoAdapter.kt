@@ -1,11 +1,11 @@
-package com.app.estudos.adapter  // coloque no pacote correto
+package com.app.estudos.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.app.estudos.R        // ⚠️ IMPORTAR O R DO SEU PROJETO, NÃO android.R
+import com.app.estudos.R
 import com.app.estudos.model.Posto
 
 class PostoAdapter(private val lista: List<Posto>) :

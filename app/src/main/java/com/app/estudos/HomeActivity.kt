@@ -25,11 +25,16 @@ class HomeActivity : AppCompatActivity() {
 
         // Lista de exemplo (pode vir do Firestore depois)
         listaDePostos = listOf(
-            Posto("Posto Alpha"),
-            Posto("Posto Beta"),
-            Posto("Posto Gama"),
-            Posto("Posto Delta"),
-            Posto("Posto SimasTurbo")
+            Posto("Posto Alpha", "Rua A - 123", "23.5"),
+            Posto("Posto Beta", "Avenida Central - 456", "24.0"),
+            Posto("Posto Gama", "Rua das Palmeiras - 789", "22.8"),
+            Posto("Posto Delta", "Alameda Santos - 321", "23.2"),
+            Posto("Posto SimasTurbo", "Rodovia BR-101 - Km 45", "24.5"),
+            Posto("Posto Omega", "Rua Nova Esperança - 654", "23.9"),
+            Posto("Posto Solaris", "Avenida Brasil - 987", "22.7"),
+            Posto("Posto Orion", "Rua XV de Novembro - 852", "23.6"),
+            Posto("Posto Estrela", "Avenida das Nações - 741", "23.3"),
+            Posto("Posto TurboMax", "Rodovia SP-75 - Km 120", "24.2")
         )
 
         // Adapter

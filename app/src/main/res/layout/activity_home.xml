@@ -9,25 +9,12 @@
     android:background="@drawable/background"
     tools:context=".HomeActivity">
 
- 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardPequisa"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:layout_margin="8dp"
-        android:elevation="8dp">
-
-        <LinearLayout
-            android:id="@+id/option"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:background="@color/black"/>
-    </androidx.cardview.widget.CardView>
-
+        android:layout_height="50dp"
+        android:layout_margin="80dp"
+        android:elevation="8dp"/>
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardBusca"
@@ -42,18 +29,20 @@
             android:id="@+id/recyclerPostos"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:backgroundTint="@color/blue"
             android:padding="8dp"/>
 
     </com.google.android.material.card.MaterialCardView>
 
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/menu"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:layout_margin="8dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="45dp"
         android:orientation="horizontal"
-        app:shapeAppearanceOverlay="@style/CardViewShape"/>
+        />
 
 </LinearLayout>
