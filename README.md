@@ -12,7 +12,7 @@
 🧭 Integração com GPS para navegação eficiente até o posto selecionado.
 
 📱 Tecnologias utilizadas:
-React Native
+Kotlin
 
 APIs de Geolocalização
 
