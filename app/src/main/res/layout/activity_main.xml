@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="56dp"
+            app:cardCornerRadius="50dp"
+            app:cardBackgroundColor="@color/fundoInicial"
+            android:elevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_card"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Welcome"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:layout_margin="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/login"
+                        style="@style/edit_Textext"
+                        android:inputType="textPersonName"
+                        android:hint="@string/Username"
+                        />
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/senha"
+                        style="@style/edit_Textext"
+                        android:inputType="numberPassword"
+                        android:hint="@string/Password"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/buttonLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:textColor="@color/white"
+                        android:layout_margin="32dp"
+                        android:background="@drawable/shape_button_orange"
+                        />
+                    <TextView
+                        android:id="@+id/textRegistro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="@string/TextRegister"/>
+
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823494432472",
+    "project_id": "estudos-dd7fa",
+    "storage_bucket": "estudos-dd7fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823494432472:android:50c2a619da5a5c34ede9ad",
+        "android_client_info": {
+          "package_name": "com.app.estudos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_MO-TrDFU2BxSvuOnue8v1WQGwKp0U18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">c-gPrototipo</string>
+
+    <string name="Welcome">Welcome to <font color="#FFA500">C&amp;G.</font></string>
+    <string name="Prohibited">Make your first login with <font color="#FFA500">Google</font> or <font color="#FFA500">Email !</font></string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register"><font color="#FFA500">Register</font></string>
+    <string name="TextRegister">Don\'t have an account?<font color="#FFA500">  Register now!</font></string>
+    <string name="todo">TODO</string>
+</resources>
