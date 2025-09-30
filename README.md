@@ -1,4 +1,4 @@
- Combustível & Gestão é um aplicativo mobile desenvolvido em React Native, com foco na otimização do abastecimento veicular. A proposta é oferecer ao usuário uma análise inteligente sobre os postos de combustíveis próximos, considerando localização, preço, qualidade e eficiência para o trajeto.
+ Combustível & Gestão é um aplicativo mobile desenvolvido em Kotlin, com foco na otimização do abastecimento veicular. A proposta é oferecer ao usuário uma análise inteligente sobre os postos de combustíveis próximos, considerando localização, preço, qualidade e eficiência para o trajeto.
 
 🚀 Funcionalidades principais:
 🔍 Varredura em tempo real de postos próximos com base na geolocalização.
