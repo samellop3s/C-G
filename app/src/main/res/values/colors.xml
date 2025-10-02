@@ -4,6 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0000FF</color>
     <color name="fundoInicial">#000000</color>
-    <color name="card">#515151</color>
+    <color name="card">#80515151</color>
     <color name="orange">#FFA500</color>
 </resources>
